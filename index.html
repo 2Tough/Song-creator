@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Song creator App</title>
+  </head>
+  <body>
+    <div id="app">
+      <h3>Song creator</h3>
+      <h4>Enter the description of the tune you want</h4>
+      <div id="inputContainer">
+        <label name="Song description">Song description</label>
+        <textarea id="songDescription" rows="5" cols="30" > </textarea>
+      </div>
+
+      <button id="createAudioBtn">Create audio</button>
+      <div class="loader"></div>
+      <audio id="song" controls />
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
